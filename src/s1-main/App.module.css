@@ -1,11 +1,18 @@
 .App {
     --header_height: 60px;
+    margin-top: 40px;
 }
 
 .hw {
-
+    padding: 30px 70px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
 }
 
 .hwTitle {
-
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 600;
+    padding-left: 70px;
 }

@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { message0 } from '../HW1'
 import s from './MessageSender.module.css'
 
@@ -58,16 +58,18 @@ const MessageSender = (props: any) => {
                     onChange={onChange}
                     onKeyDown={onKeyDown}
                 />
-                <button
-                    id={'hw1-button'}
-                    className={s.button}
+                <div>
+                    <button
+                        id={'hw1-button'}
+                        className={s.button}
 
-                    onClick={addMessage}
-                >
-                    {/*текст кнопки могут изменить студенты*/}
-                    Send
-                    {/**/}
-                </button>
+                        onClick={addMessage}
+                    >
+                        {/*текст кнопки могут изменить студенты*/}
+                        Send
+                        {/**/}
+                    </button>
+                </div>
             </div>
         </>
     )
